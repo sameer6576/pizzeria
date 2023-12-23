@@ -1,0 +1,34 @@
+order one or more pizzas
+no user account or auth required
+pizza menu can change from time to time so use api
+multiple pizza : cart required
+order requires : name, address and phone number
+use gps if possible 
+ability to mark priority order for an additional 20% of the cart price
+orders made by sending the post request to the api
+no payment processing required
+unique id for each order
+ability to mark priority even after it has been placed
+
+FEATURE CATEGORIES :
+user
+menu
+cart
+order 
+
+NECESSARY PAGES :
+homepage /
+pizza menu /menu
+cart /cart
+placing new order /order/new
+looking up old order /order/:orderID
+
+STATE MANAGEMENT + TECHNOLOGY DECISION :
+user : Global UI
+menu : Global Remote
+cart : Global UI
+order :Global Remote
+
+Routing : React Router
+Styling : Tailwind CSS
+State Management : React Router
